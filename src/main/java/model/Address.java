@@ -24,10 +24,12 @@ public class Address implements Serializable {
     @Column(name = "addr_city", length = 60)
     private String city;
 
-    // Attribute f¨ur zip, street und city unver¨andert
-
-    @OneToOne(mappedBy = "address")
+    @OneToOne(mappedBy = "address", cascade = CascadeType.PERSIST)
     private Customer customer;
+
+    @ManyToOne
+    @JoinColumn(name = "addr_pub_id")
+    private Publisher publisher;
 
     public Address() {}
 

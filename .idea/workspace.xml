@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48064b77-a412-4e63-9e7c-5755d441345d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/BookCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Publisher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/JPAUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/JPAUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/db/CustomerDAOTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +42,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZD3jqr2HWnIvkeNCHUZkaeyGyJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -101,7 +111,7 @@
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="db.*" />
+          <option name="PATTERN" value="model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,7 +128,7 @@
       <module name="JPA_Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="db.*" />
+          <option name="PATTERN" value="model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,7 +144,7 @@
       <module name="JPA_Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="db.*" />
+          <option name="PATTERN" value="model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,7 +160,7 @@
       <module name="JPA_Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="db.*" />
+          <option name="PATTERN" value="model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,12 +210,16 @@
       <workItem from="1584613388149" duration="710000" />
       <workItem from="1584614905491" duration="1107000" />
       <workItem from="1585567979418" duration="139000" />
-      <workItem from="1585568338900" duration="2504000" />
+      <workItem from="1585568338900" duration="8767000" />
+      <workItem from="1585577125746" duration="2252000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="619" y="193" width="685" height="677" key="#App" timestamp="1585568398724">
@@ -224,10 +238,14 @@
       <screen x="0" y="28" width="1920" height="1016" />
     </state>
     <state x="555" y="197" width="800" height="675" key="#Plugins/0.28.1920.1016@0.28.1920.1016" timestamp="1584604461031" />
-    <state x="1112" y="242" width="554" height="622" key="#com.intellij.ide.util.MemberChooser" timestamp="1585570351466">
+    <state x="418" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585577308877">
       <screen x="0" y="28" width="1920" height="1016" />
     </state>
-    <state x="1112" y="242" width="554" height="622" key="#com.intellij.ide.util.MemberChooser/0.28.1920.1016@0.28.1920.1016" timestamp="1585570351466" />
+    <state x="418" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1016@0.28.1920.1016" timestamp="1585577308877" />
+    <state x="1112" y="242" width="554" height="622" key="#com.intellij.ide.util.MemberChooser" timestamp="1585575465549">
+      <screen x="0" y="28" width="1920" height="1016" />
+    </state>
+    <state x="1112" y="242" width="554" height="622" key="#com.intellij.ide.util.MemberChooser/0.28.1920.1016@0.28.1920.1016" timestamp="1585575465549" />
     <state x="801" y="428" width="308" height="214" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584606005277">
       <screen x="0" y="28" width="1920" height="1016" />
     </state>
@@ -241,26 +259,26 @@
     </state>
     <state x="740" y="336" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1584450660526" />
     <state x="740" y="322" width="424" height="511" key="FileChooserDialogImpl/0.28.1920.1016@0.28.1920.1016" timestamp="1584606418193" />
-    <state width="1874" height="164" key="GridCell.Tab.0.bottom" timestamp="1585570848826">
+    <state width="1874" height="315" key="GridCell.Tab.0.bottom" timestamp="1585579373925">
       <screen x="0" y="28" width="1920" height="1016" />
     </state>
     <state width="1877" height="407" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1584532784787" />
-    <state width="1874" height="164" key="GridCell.Tab.0.bottom/0.28.1920.1016@0.28.1920.1016" timestamp="1585570848826" />
-    <state width="1874" height="164" key="GridCell.Tab.0.center" timestamp="1585570848825">
+    <state width="1874" height="315" key="GridCell.Tab.0.bottom/0.28.1920.1016@0.28.1920.1016" timestamp="1585579373925" />
+    <state width="1874" height="315" key="GridCell.Tab.0.center" timestamp="1585579373924">
       <screen x="0" y="28" width="1920" height="1016" />
     </state>
     <state width="1877" height="407" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1584532784787" />
-    <state width="1874" height="164" key="GridCell.Tab.0.center/0.28.1920.1016@0.28.1920.1016" timestamp="1585570848825" />
-    <state width="1874" height="164" key="GridCell.Tab.0.left" timestamp="1585570848825">
+    <state width="1874" height="315" key="GridCell.Tab.0.center/0.28.1920.1016@0.28.1920.1016" timestamp="1585579373924" />
+    <state width="1874" height="315" key="GridCell.Tab.0.left" timestamp="1585579373924">
       <screen x="0" y="28" width="1920" height="1016" />
     </state>
     <state width="1877" height="407" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1584532784787" />
-    <state width="1874" height="164" key="GridCell.Tab.0.left/0.28.1920.1016@0.28.1920.1016" timestamp="1585570848825" />
-    <state width="1874" height="164" key="GridCell.Tab.0.right" timestamp="1585570848826">
+    <state width="1874" height="315" key="GridCell.Tab.0.left/0.28.1920.1016@0.28.1920.1016" timestamp="1585579373924" />
+    <state width="1874" height="315" key="GridCell.Tab.0.right" timestamp="1585579373924">
       <screen x="0" y="28" width="1920" height="1016" />
     </state>
     <state width="1877" height="407" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1584532784787" />
-    <state width="1874" height="164" key="GridCell.Tab.0.right/0.28.1920.1016@0.28.1920.1016" timestamp="1585570848826" />
+    <state width="1874" height="315" key="GridCell.Tab.0.right/0.28.1920.1016@0.28.1920.1016" timestamp="1585579373924" />
     <state x="490" y="236" key="Maven.ArtifactSearchDialog" timestamp="1584370267172">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -273,9 +291,9 @@
       <screen x="0" y="28" width="1920" height="1016" />
     </state>
     <state x="734" y="268" width="442" height="533" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.28.1920.1016@0.28.1920.1016" timestamp="1584615211618" />
-    <state x="623" y="251" width="672" height="678" key="search.everywhere.popup" timestamp="1585569766945">
+    <state x="623" y="251" width="672" height="678" key="search.everywhere.popup" timestamp="1585578197726">
       <screen x="0" y="28" width="1920" height="1016" />
     </state>
-    <state x="623" y="251" width="672" height="678" key="search.everywhere.popup/0.28.1920.1016@0.28.1920.1016" timestamp="1585569766945" />
+    <state x="623" y="251" width="672" height="678" key="search.everywhere.popup/0.28.1920.1016@0.28.1920.1016" timestamp="1585578197726" />
   </component>
 </project>

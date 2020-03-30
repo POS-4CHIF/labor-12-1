@@ -3,6 +3,8 @@ package model;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -32,9 +34,12 @@ public class Customer implements Serializable {
     @Column(name = "cust_email")
     private String email;
 
-    @OneToOne(optional = false)
+    @OneToOne(optional = false, cascade = CascadeType.PERSIST)
     @JoinColumn(name = "cust_addr_id")
     private Address address;
+
+    @OneToMany(mappedBy = "customer", cascade = CascadeType.PERSIST)
+    private List<Book> books = new ArrayList<>();
 
     public Customer() {
     }
