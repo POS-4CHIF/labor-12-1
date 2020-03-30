@@ -97,4 +97,9 @@ public class Publisher implements Serializable {
                 ", addresses=" + addresses +
                 '}';
     }
+
+    public void addAddress(Address address) {
+        this.addresses.add(address);
+        address.setPublisher(this);
+    }
 }

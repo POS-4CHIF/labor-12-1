@@ -84,10 +84,10 @@ public class DAO implements AutoCloseable{
         Book b4 = new Book("9783899533388", "Toskana", "Michael Müller", d1, p2);
         b4.addBookCategory(bc3);
 
-        p1.getAddresses().add(new Address(1010, "Herrengasse 17", "Wien"));
-        p1.getAddresses().add(new Address(3100, "Linzerstraße 37", "St.Pölten"));
-        p2.getAddresses().add(new Address(2473, "Obere Hauptstraße 32", "Prellenkirchen"));
-        p1.getAddresses().add(new Address(3200, "Hauptstraße 20", "Ober Grafendorf"));
+        p1.addAddress(new Address(1010, "Herrengasse 17", "Wien"));
+        p1.addAddress(new Address(3100, "Linzerstraße 37", "St.Pölten"));
+        p2.addAddress(new Address(2473, "Obere Hauptstraße 32", "Prellenkirchen"));
+        p1.addAddress(new Address(3200, "Hauptstraße 20", "Ober Grafendorf"));
 
         Book []books = {b1, b2, b3, b4};
         BookCategory []categories ={bc1, bc2, bc3};

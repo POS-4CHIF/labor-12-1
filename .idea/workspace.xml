@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48064b77-a412-4e63-9e7c-5755d441345d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/BookCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Publisher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/db/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/DAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/JPAUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/JPAUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Publisher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +200,7 @@
       <workItem from="1584614905491" duration="1107000" />
       <workItem from="1585567979418" duration="139000" />
       <workItem from="1585568338900" duration="8767000" />
-      <workItem from="1585577125746" duration="2252000" />
+      <workItem from="1585577125746" duration="2923000" />
     </task>
     <servers />
   </component>
@@ -242,10 +231,10 @@
       <screen x="0" y="28" width="1920" height="1016" />
     </state>
     <state x="418" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1016@0.28.1920.1016" timestamp="1585577308877" />
-    <state x="1112" y="242" width="554" height="622" key="#com.intellij.ide.util.MemberChooser" timestamp="1585575465549">
+    <state x="1112" y="242" width="554" height="622" key="#com.intellij.ide.util.MemberChooser" timestamp="1585579942450">
       <screen x="0" y="28" width="1920" height="1016" />
     </state>
-    <state x="1112" y="242" width="554" height="622" key="#com.intellij.ide.util.MemberChooser/0.28.1920.1016@0.28.1920.1016" timestamp="1585575465549" />
+    <state x="1112" y="242" width="554" height="622" key="#com.intellij.ide.util.MemberChooser/0.28.1920.1016@0.28.1920.1016" timestamp="1585579942450" />
     <state x="801" y="428" width="308" height="214" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584606005277">
       <screen x="0" y="28" width="1920" height="1016" />
     </state>
@@ -259,26 +248,26 @@
     </state>
     <state x="740" y="336" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1584450660526" />
     <state x="740" y="322" width="424" height="511" key="FileChooserDialogImpl/0.28.1920.1016@0.28.1920.1016" timestamp="1584606418193" />
-    <state width="1874" height="315" key="GridCell.Tab.0.bottom" timestamp="1585579373925">
+    <state width="1874" height="315" key="GridCell.Tab.0.bottom" timestamp="1585580210269">
       <screen x="0" y="28" width="1920" height="1016" />
     </state>
     <state width="1877" height="407" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1584532784787" />
-    <state width="1874" height="315" key="GridCell.Tab.0.bottom/0.28.1920.1016@0.28.1920.1016" timestamp="1585579373925" />
-    <state width="1874" height="315" key="GridCell.Tab.0.center" timestamp="1585579373924">
+    <state width="1874" height="315" key="GridCell.Tab.0.bottom/0.28.1920.1016@0.28.1920.1016" timestamp="1585580210269" />
+    <state width="1874" height="315" key="GridCell.Tab.0.center" timestamp="1585580210269">
       <screen x="0" y="28" width="1920" height="1016" />
     </state>
     <state width="1877" height="407" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1584532784787" />
-    <state width="1874" height="315" key="GridCell.Tab.0.center/0.28.1920.1016@0.28.1920.1016" timestamp="1585579373924" />
-    <state width="1874" height="315" key="GridCell.Tab.0.left" timestamp="1585579373924">
+    <state width="1874" height="315" key="GridCell.Tab.0.center/0.28.1920.1016@0.28.1920.1016" timestamp="1585580210269" />
+    <state width="1874" height="315" key="GridCell.Tab.0.left" timestamp="1585580210268">
       <screen x="0" y="28" width="1920" height="1016" />
     </state>
     <state width="1877" height="407" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1584532784787" />
-    <state width="1874" height="315" key="GridCell.Tab.0.left/0.28.1920.1016@0.28.1920.1016" timestamp="1585579373924" />
-    <state width="1874" height="315" key="GridCell.Tab.0.right" timestamp="1585579373924">
+    <state width="1874" height="315" key="GridCell.Tab.0.left/0.28.1920.1016@0.28.1920.1016" timestamp="1585580210268" />
+    <state width="1874" height="315" key="GridCell.Tab.0.right" timestamp="1585580210269">
       <screen x="0" y="28" width="1920" height="1016" />
     </state>
     <state width="1877" height="407" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1584532784787" />
-    <state width="1874" height="315" key="GridCell.Tab.0.right/0.28.1920.1016@0.28.1920.1016" timestamp="1585579373924" />
+    <state width="1874" height="315" key="GridCell.Tab.0.right/0.28.1920.1016@0.28.1920.1016" timestamp="1585580210269" />
     <state x="490" y="236" key="Maven.ArtifactSearchDialog" timestamp="1584370267172">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
